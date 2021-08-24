@@ -1,5 +1,5 @@
 applications:
 - instances: 1
   name: suinsurance
-  memory: 1G
+  memory: 512M
   health-check-type: process
