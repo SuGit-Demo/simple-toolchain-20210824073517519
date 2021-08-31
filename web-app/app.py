@@ -28,6 +28,7 @@ def startApp():
 @app.route('/predict', methods=('GET', 'POST'))
 def predict():
     form = PredictForm()
+    print('')
     if form.submit():
 
         # NOTE: generate iam_token and retrieve ml_instance_id based on provided documentation
